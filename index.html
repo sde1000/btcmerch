@@ -49,6 +49,15 @@
 <li>If you overpay, we don't give change; there's nothing in the protocol to say where we should send it!</li>
 <li>We don't offer "cashback" on Bitcoin transactions; you can't use us to convert Bitcoin to Sterling.</li>
 <li>If you underpay, the transaction won't complete until you send the rest of the money.  If we've received part-payment, we can offer another QR code requesting the remaining amount.</li>
+</ol><h2>
+<a name="future-directions" class="anchor" href="#future-directions"><span class="octicon octicon-link"></span></a>Future directions</h2>
+
+<p>We'll probably drop our own merchant service at some point and alter the till software to use <a href="https://bitpay.com/">bitpay</a>.  This will have a few advantages for customers, because they support the <a href="https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki">BIP 70 payment protocol</a>:</p>
+
+<ol>
+<li>If you overpay, the overpayment can be returned to you via the change/refund address you supply as part of the protocol.</li>
+<li>If you underpay, the Bitcoin payment can be returned to you and you can pay using a different method.</li>
+<li>If you don't like your drink or food, we can issue a refund in Bitcoin.</li>
 </ol><h1>
 <a name="how-it-works" class="anchor" href="#how-it-works"><span class="octicon octicon-link"></span></a>How it works</h1>
 
