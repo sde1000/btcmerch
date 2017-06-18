@@ -1,3 +1,11 @@
+# Update, June 2017
+
+1. The minimum transaction we're willing to accept in Bitcoin is £50.00.  This is because Bitcoin fees are now very high (on the order of £2.00 per transaction) and they must be paid both by our customers (when they send the transaction to us) and again by us (when we send the transaction to the Bitcoin exchange to convert back to pounds).
+2. Bitcoin is now only accepted at the Pembury Tavern and Queen Edith pubs.  The service has been turned off at the other pubs due to repeated failed transactions.
+3. Unless the Bitcoin network capacity problem is fixed by lifting the 1Mb limit per block, it is likely that we will stop accepting Bitcoin altogether by August 2017.
+
+# Original text follows
+
 This service is used to accept payment in Bitcoin in pubs run by [Individual Pubs Ltd](https://www.individualpubs.co.uk/).
 
 The server-side code isn't published yet.  The client code is [part of the "quicktill" package](https://github.com/sde1000/quicktill).
