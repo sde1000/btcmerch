@@ -1,3 +1,9 @@
+# Update, July 2017
+
+We no longer accept Bitcoin.
+
+The uncertainty around the future of the network from 1st August, combined with high transaction fees and slow / unreliable transaction confirmations was the final straw.
+
 # Update, June 2017
 
 1. The minimum transaction we're willing to accept in Bitcoin is £50.00.  This is because Bitcoin fees are now very high (on the order of £2.00 per transaction) and they must be paid both by our customers (when they send the transaction to us) and again by us (when we send the transaction to the Bitcoin exchange to convert back to pounds).
