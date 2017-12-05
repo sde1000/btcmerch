@@ -2,7 +2,19 @@
 
 We no longer accept Bitcoin.
 
-The uncertainty around the future of the network from 1st August, combined with high transaction fees and slow / unreliable transaction confirmations was the final straw.
+The uncertainty around the future of the network from 1st August,
+combined with high transaction fees and slow / unreliable transaction
+confirmations was the final straw.
+
+1. Very high fees mean that it isn't sensible to use Bitcoin for small
+transactions.  Note that the fee must be paid twice: once by the
+customer to send Bitcoin to us, and then again by us to send the
+Bitcoin to an exchange to convert back to pounds.
+
+2. If a Bitcoin transaction is sent without a high fee (or sometimes
+even with a high fee), there's no guarantee that it will be included
+in a block.  Blocks are frequently full, and transactions can hang
+around in the mempool for ages before being discarded.
 
 # Update, June 2017
 
